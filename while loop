@@ -3,13 +3,14 @@ using namespace std;
 
 int main() {
     int i = 1;
-    int product = 1;
+    int product = 1;  
 
     while (i <= 5) {
-         product *= i=;
+        product = product * i;  
         i++;
+    }
 
-cout <<"The product of numbers from 1 to 5 is" << product << end;
+    cout << "Product of numbers from 1 to 5 " << product << endl;
 
-return 0;
+    return 0;
 }
